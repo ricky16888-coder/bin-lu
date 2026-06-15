@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<!-- saved from url=(0148)file:///C:/Users/user/Downloads/%E8%B3%93%E5%BE%8B%E7%A7%9F%E8%B3%83_%E6%A1%83%E5%9C%92%E6%A9%9F%E5%A0%B4%E8%BB%8A%E8%B3%87%E8%A9%A6%E7%AE%97_3.html -->
+<html lang="zh-TW"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>賓律租賃 | 桃園國際機場接送車資試算</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-family:'Microsoft JhengHei','PingFang TC','Noto Sans TC',Arial,sans-serif;font-size:13px;color:#1a2e1a;background:#edf2ed}
+body{min-height:100vh}
+
+:root{
+  --forest:#2D5016;--green:#3E7B1F;--mid:#5A9E35;
+  --pale:#EEF6E6;--sky:#1A6EA8;--sky-lt:#E3F0FB;
+  --amber:#E87C1E;--red:#C0392B;
+  --line:#D0E5BE;--muted:#6B7F6B;--sand:#FAFAF7;
+  --w:#fff;--sh:0 2px 10px rgba(45,80,22,.12);--r:10px;--r2:7px;
+}
+
+/* ── HEADER ── */
+.hd{background:linear-gradient(135deg,var(--forest),var(--mid));color:#fff;padding:10px 18px;
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  box-shadow:0 2px 8px rgba(45,80,22,.3);position:sticky;top:0;z-index:50}
+.hd-brand{display:flex;align-items:center;gap:10px}
+.hd-ico{font-size:20px;background:rgba(255,255,255,.15);border:1.5px solid rgba(255,255,255,.3);
+  border-radius:8px;width:34px;height:34px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.hd-co{font-size:14px;font-weight:700;white-space:nowrap}
+.hd-sub{font-size:10px;opacity:.8;margin-top:1px;white-space:nowrap}
+.lang-btn{background:rgba(255,255,255,.18);border:1.5px solid rgba(255,255,255,.35);color:#fff;
+  padding:4px 12px;border-radius:16px;font-size:11px;font-weight:600;cursor:pointer;white-space:nowrap}
+.lang-btn:hover{background:rgba(255,255,255,.28)}
+
+/* ── DESKTOP LAYOUT ── */
+.desktop-body{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:14px;height:calc(100vh - 54px);overflow:hidden}
+
+/* ── PANEL COMMON ── */
+.panel{background:var(--w);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden;display:flex;flex-direction:column;height:100%}
+.panel-head{background:var(--pale);border-bottom:1.5px solid var(--line);padding:8px 14px;
+  font-size:12px;font-weight:700;color:var(--forest);display:flex;align-items:center;gap:6px;flex-shrink:0}
+.panel-body{padding:10px 14px 14px;overflow-y:auto;flex:1}
+
+/* ── SECTION LABEL ── */
+.sec{font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;
+  margin:8px 0 5px;display:flex;align-items:center;gap:5px}
+.sec:first-child{margin-top:0}
+.sec::after{content:'';flex:1;height:1px;background:var(--line)}
+
+/* ── SERVICE BUTTONS ── */
+.svc-row{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:2px}
+.svc-btn{padding:7px 6px;border:1.5px solid var(--line);border-radius:var(--r2);background:var(--sand);
+  cursor:pointer;font-size:12px;font-weight:600;color:var(--muted);text-align:center;transition:all .15s;line-height:1.3}
+.svc-btn .ico{font-size:16px;display:block;margin-bottom:1px}
+.svc-btn .en{font-size:9px;font-weight:400;opacity:.7;display:block}
+.svc-btn:hover{border-color:var(--mid);color:var(--green)}
+.svc-btn.go{border-color:#1A6B00;background:#1A6B00;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.2)}
+.svc-btn.pk{border-color:#0056A3;background:#0056A3;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.2)}
+
+/* ── FORM FIELDS ── */
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.f{margin-bottom:6px}
+.f label{display:block;font-size:10px;font-weight:700;color:var(--forest);margin-bottom:3px}
+.f label .en{font-size:9px;color:var(--muted);font-weight:400;margin-left:3px}
+select{width:100%;padding:6px 26px 6px 8px;border:1.5px solid #c8ddb8;border-radius:var(--r2);
+  font-size:12px;font-family:inherit;color:var(--forest);background:var(--w);
+  appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='5'%3E%3Cpath d='M0 0l4.5 5L9 0z' fill='%236B7F6B'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 8px center;cursor:pointer;transition:border-color .15s}
+select:focus{outline:none;border-color:var(--mid);box-shadow:0 0 0 2px rgba(90,158,53,.15)}
+select:disabled{background:#f5f7f3;color:#aab8aa;border-color:#dde8d5;cursor:default}
+
+/* ── CHIPS ── */
+.chip{display:none;align-items:flex-start;gap:6px;background:#fef3e8;border:1px solid #f4c17a;
+  border-radius:5px;padding:5px 8px;font-size:10px;color:#7a4010;margin-top:4px;line-height:1.4}
+.chip.show{display:flex}
+.chip.err{background:#fee;border-color:#f5a0a0;color:var(--red)}
+.chip-ico{font-size:12px;flex-shrink:0}
+
+/* ── CALC BUTTON ── */
+.calc-btn{width:100%;padding:10px;margin-top:8px;
+  background:linear-gradient(135deg,var(--forest),var(--mid));
+  color:#fff;border:none;border-radius:var(--r2);
+  font-size:13px;font-weight:700;cursor:pointer;letter-spacing:.3px;
+  box-shadow:0 2px 8px rgba(45,80,22,.22);transition:opacity .2s,transform .1s}
+.calc-btn:hover{opacity:.92}
+.calc-btn:active{transform:scale(.99)}
+
+/* ── RESULT PANEL HEAD ── */
+.res-head{background:linear-gradient(135deg,var(--forest),var(--green));color:#fff;padding:12px 16px 14px;flex-shrink:0}
+.res-head-title{font-size:13px;font-weight:700}
+.res-route{margin-top:8px;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.rinfo{display:inline-flex;flex-direction:column;background:rgba(255,255,255,.15);
+  border:1px solid rgba(255,255,255,.3);border-radius:5px;padding:3px 10px;line-height:1.35;max-width:100%}
+.rinfo-label{font-size:9px;opacity:.75;font-weight:600;text-transform:uppercase;letter-spacing:.4px}
+.rinfo-val{font-size:12px;font-weight:700;word-break:break-all}
+.rarrow{opacity:.6;font-size:14px;flex-shrink:0}
+
+/* ── RESULT BODY ── */
+.res-body{padding:16px;overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:12px}
+
+/* ── EMPTY STATE ── */
+.empty{text-align:center;padding:30px 20px;color:var(--muted)}
+.empty-ico{font-size:40px;display:block;margin-bottom:10px;opacity:.4}
+.empty p{font-size:12px;line-height:1.7}
+
+/* ── FARE HERO ── */
+.fare-display{display:none;flex-direction:column;gap:12px}
+.fare-hero{text-align:center;padding:12px 0 10px;border-bottom:1.5px solid var(--line)}
+.fare-veh{font-size:20px;font-weight:700;color:var(--muted);letter-spacing:.5px}
+.fare-big{font-size:38px;font-weight:800;color:var(--forest);letter-spacing:-1px;line-height:1.1;margin:3px 0 2px}
+.fare-big .cur{font-size:16px;font-weight:600;vertical-align:super;margin-right:1px;color:var(--green)}
+.fare-note{font-size:10px;color:var(--muted)}
+
+/* ── BREAKDOWN ── */
+.bd{background:var(--pale);border-radius:8px;padding:10px 12px}
+.bd-ttl{font-size:9px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin-bottom:7px}
+.bd-row{display:flex;justify-content:space-between;font-size:11px;padding:3px 0;border-bottom:1px dashed var(--line);color:var(--forest)}
+.bd-row:last-child{border:none;font-weight:700;font-size:12px;padding-top:5px;margin-top:1px}
+.bd-sur{color:var(--amber);font-weight:600}
+.bd-tot{color:var(--sky);font-size:14px;font-weight:800}
+
+/* ── OTHER VEHICLES ── */
+.ov-ttl{font-size:9px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin-bottom:7px}
+.ov-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ov-card{border:1.5px solid var(--line);border-radius:7px;padding:8px 10px;background:var(--sand)}
+.ov-name{font-size:9px;color:var(--muted)}
+.ov-fare{font-size:15px;font-weight:800;color:var(--forest);margin-top:1px}
+.ov-fare .ov-cur{font-size:10px;font-weight:600;color:var(--green)}
+
+/* ── ACTIONS ── */
+.act-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.act-btn{padding:8px;border-radius:var(--r2);font-size:11px;font-weight:600;cursor:pointer;text-align:center;border:1.5px solid transparent;line-height:1.3;transition:all .15s}
+.act-print{border-color:var(--green);background:var(--pale);color:var(--forest)}
+.act-print:hover{background:var(--green);color:#fff}
+.act-line{border-color:#ddd;background:#f9f9f9;color:#aaa;cursor:default}
+.act-line small{display:block;font-size:8px;font-weight:400;opacity:.7;margin-top:1px}
+
+/* ── MOBILE ── */
+@media(max-width:820px){
+  .desktop-body{display:none}
+
+  .mobile-wrap{display:block;padding:12px 12px 40px}
+
+  .mobile-form-card{background:var(--w);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden;margin-bottom:14px}
+  .mobile-form-body{padding:10px 14px 14px}
+
+  /* Result area on mobile - shown inline below form */
+  .mobile-result-card{background:var(--w);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden;
+    scroll-margin-top:70px}
+  .mobile-result-body{padding:16px;display:flex;flex-direction:column;gap:12px}
+  .mobile-empty{text-align:center;padding:24px 20px;color:var(--muted);font-size:12px}
+}
+
+@media(min-width:821px){
+  .mobile-wrap{display:none}
+}
+
+/* ── PRINT ── */
+@media print{
+  .hd{background:var(--forest)!important;-webkit-print-color-adjust:exact;position:static}
+  .desktop-body{display:block;height:auto;overflow:visible}
+  .panel{height:auto}
+  .panel:first-child{display:none}
+  .lang-btn,.calc-btn,.act-line{display:none}
+  .mobile-wrap{display:none}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="hd">
+  <div class="hd-brand">
+    <div class="hd-ico">🚐</div>
+    <div>
+      <div class="hd-co" id="hd-co">賓律租賃股份有限公司</div>
+      <div class="hd-sub" id="hd-sub">桃園國際機場接送車資試算</div>
+    </div>
+  </div>
+  <button class="lang-btn" id="langBtn" onclick="toggleLang()">EN</button>
+</header>
+
+<!-- ══════════════ DESKTOP ══════════════ -->
+<div class="desktop-body">
+
+  <!-- LEFT: FORM -->
+  <div class="panel">
+    <div class="panel-head"><span>📋</span><span id="fp-title">填寫接送資訊</span></div>
+    <div class="panel-body" id="desktop-form-body">
+    <div class="sec" id="d-sec-svc">服務類型 Service Type</div>
+    <div class="svc-row">
+      <button class="svc-btn go" id="d-btn-go" onclick="selSvc(&#39;go&#39;,&#39;d-&#39;)">
+        <span class="ico">✈️</span><span id="d-lbl-go">送機</span>
+        <span class="en">Drop-off</span>
+      </button>
+      <button class="svc-btn" id="d-btn-pk" onclick="selSvc(&#39;pk&#39;,&#39;d-&#39;)">
+        <span class="ico">🛬</span><span id="d-lbl-pk">接機</span>
+        <span class="en">Pick-up +NT$100</span>
+      </button>
+    </div>
+
+    <div class="sec" id="d-sec-dest">目的地 Destination</div>
+    <div class="row2">
+      <div class="f">
+        <label><span id="d-lbl-county">縣市</span> <span class="en">County</span></label>
+        <select id="d-sel-county" onchange="updateDist(&#39;d-&#39;)">
+          <option value="">-- 請選縣市 --</option><option value="基隆/新北">基隆/新北</option><option value="台北/新北">台北/新北</option><option value="桃園">桃園</option><option value="新竹">新竹</option><option value="苗栗">苗栗</option><option value="台中">台中</option><option value="宜蘭">宜蘭</option><option value="彰化">彰化</option><option value="南投">南投</option><option value="雲林">雲林</option><option value="嘉義">嘉義</option><option value="台南">台南</option><option value="高雄">高雄</option><option value="屏東">屏東</option><option value="花蓮">花蓮</option><option value="台東">台東</option>
+        </select>
+      </div>
+      <div class="f">
+        <label><span id="d-lbl-dist">行政區</span> <span class="en">District</span></label>
+        <select id="d-sel-dist" disabled="">
+          <option value="">-- 請先選縣市 --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="sec" id="d-sec-veh">車型與人數 Vehicle &amp; Passengers</div>
+    <div class="row2">
+      <div class="f">
+        <label><span id="d-lbl-veh">車型</span> <span class="en">Vehicle</span></label>
+        <select id="d-sel-veh" onchange="updatePax(&#39;d-&#39;)">
+          <option value="">-- 請選擇車型 --</option>
+          <option value="sedan">轎車｜4人座</option>
+          <option value="van9">九人座｜8人</option>
+          <option value="benz">Benz九座｜8人</option>
+        </select>
+      </div>
+      <div class="f">
+        <label><span id="d-lbl-pax">人數</span> <span class="en">Pax</span></label>
+        <select id="d-sel-pax" disabled="">
+          <option value="">-- 先選車型 --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="sec" id="d-sec-time">接送時間 Transfer Time</div>
+    <div class="f">
+      <select id="d-sel-time" onchange="chkNight(&#39;d-&#39;)">
+        <option value="">-- 請選擇時間 --</option><option value="0">00:00</option><option value="0">00:30</option><option value="1">01:00</option><option value="1">01:30</option><option value="2">02:00</option><option value="2">02:30</option><option value="3">03:00</option><option value="3">03:30</option><option value="4">04:00</option><option value="4">04:30</option><option value="5">05:00</option><option value="5">05:30</option><option value="6">06:00</option><option value="6">06:30</option><option value="7">07:00</option><option value="7">07:30</option><option value="8">08:00</option><option value="8">08:30</option><option value="9">09:00</option><option value="9">09:30</option><option value="10">10:00</option><option value="10">10:30</option><option value="11">11:00</option><option value="11">11:30</option><option value="12">12:00</option><option value="12">12:30</option><option value="13">13:00</option><option value="13">13:30</option><option value="14">14:00</option><option value="14">14:30</option><option value="15">15:00</option><option value="15">15:30</option><option value="16">16:00</option><option value="16">16:30</option><option value="17">17:00</option><option value="17">17:30</option><option value="18">18:00</option><option value="18">18:30</option><option value="19">19:00</option><option value="19">19:30</option><option value="20">20:00</option><option value="20">20:30</option><option value="21">21:00</option><option value="21">21:30</option><option value="22">22:00</option><option value="22">22:30</option><option value="23">23:00</option><option value="23">23:30</option>
+      </select>
+      <div class="chip" id="d-night-chip">
+        <span class="chip-ico">🌙</span>
+        <span id="d-lbl-night">深夜時段（23:00 ~ 隔日 06:00），加收 NT$200</span>
+      </div>
+    </div>
+
+    <div class="sec" id="d-sec-child">兒童設備（選填）</div>
+    <div class="row2">
+      <div class="f">
+        <label><span id="d-lbl-seat">安全座椅</span> <span style="color:var(--amber);font-size:9px">+NT$200/座</span></label>
+        <select id="d-sel-seat" onchange="chkChild(&#39;d-&#39;)"><option value="0">0 座</option></select>
+      </div>
+      <div class="f">
+        <label><span id="d-lbl-boost">增高墊</span> <span style="color:var(--amber);font-size:9px">+NT$200/座</span></label>
+        <select id="d-sel-boost" onchange="chkChild(&#39;d-&#39;)"><option value="0">0 座</option></select>
+      </div>
+    </div>
+    <div class="chip err" id="d-child-err">
+      <span class="chip-ico">⚠️</span>
+      <span id="d-lbl-child-err">安全座椅與增高墊合計不得超過車型座位數上限</span>
+    </div>
+
+    <button class="calc-btn" onclick="calc(&#39;d-&#39;)">
+      <span id="d-lbl-calc">計算車資</span>
+    </button></div>
+  </div>
+
+  <!-- RIGHT: RESULT -->
+  <div class="panel">
+    <div class="res-head">
+      <div class="res-head-title" id="res-title">車資試算結果</div>
+      <div class="res-route" id="res-route-d"><span style="font-size:11px;opacity:.7" id="lbl-res-sub">填寫左側資訊後按下計算</span></div>
+    </div>
+    <div class="res-body">
+      <div class="empty" id="empty-d">
+        <span class="empty-ico">🗺️</span>
+        <p id="lbl-empty">請選擇目的地、車型與時間<br>即可試算接送車資</p>
+      </div>
+      <div class="fare-display" id="fare-d">
+        <div class="fare-hero">
+          <div class="fare-veh" id="res-veh-d"></div>
+          <div class="fare-big"><span class="cur">NT$</span><span id="res-total-d">0</span></div>
+          <div class="fare-note" id="res-note-d"></div>
+        </div>
+        <div class="bd"><div class="bd-ttl" id="lbl-bd">費用明細 BREAKDOWN</div><div id="bd-rows-d"></div></div>
+        <div id="ov-wrap-d"></div>
+        <div class="act-row">
+          <button class="act-btn act-print" onclick="window.print()">🖨️ <span id="lbl-print">列印報價</span></button>
+          <button class="act-btn act-line">💚 <span id="lbl-line">分享 LINE</span><small id="lbl-coming">功能開發中</small></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /desktop-body -->
+
+<!-- ══════════════ MOBILE ══════════════ -->
+<div class="mobile-wrap">
+
+  <!-- Form card -->
+  <div class="mobile-form-card">
+    <div class="panel-head"><span>📋</span><span id="fp-title-m">填寫接送資訊</span></div>
+    <div class="mobile-form-body" id="mobile-form-body">
+    <div class="sec" id="m-sec-svc">服務類型 Service Type</div>
+    <div class="svc-row">
+      <button class="svc-btn go" id="m-btn-go" onclick="selSvc(&#39;go&#39;,&#39;m-&#39;)">
+        <span class="ico">✈️</span><span id="m-lbl-go">送機</span>
+        <span class="en">Drop-off</span>
+      </button>
+      <button class="svc-btn" id="m-btn-pk" onclick="selSvc(&#39;pk&#39;,&#39;m-&#39;)">
+        <span class="ico">🛬</span><span id="m-lbl-pk">接機</span>
+        <span class="en">Pick-up +NT$100</span>
+      </button>
+    </div>
+
+    <div class="sec" id="m-sec-dest">目的地 Destination</div>
+    <div class="row2">
+      <div class="f">
+        <label><span id="m-lbl-county">縣市</span> <span class="en">County</span></label>
+        <select id="m-sel-county" onchange="updateDist(&#39;m-&#39;)">
+          <option value="">-- 請選縣市 --</option><option value="基隆/新北">基隆/新北</option><option value="台北/新北">台北/新北</option><option value="桃園">桃園</option><option value="新竹">新竹</option><option value="苗栗">苗栗</option><option value="台中">台中</option><option value="宜蘭">宜蘭</option><option value="彰化">彰化</option><option value="南投">南投</option><option value="雲林">雲林</option><option value="嘉義">嘉義</option><option value="台南">台南</option><option value="高雄">高雄</option><option value="屏東">屏東</option><option value="花蓮">花蓮</option><option value="台東">台東</option>
+        </select>
+      </div>
+      <div class="f">
+        <label><span id="m-lbl-dist">行政區</span> <span class="en">District</span></label>
+        <select id="m-sel-dist" disabled="">
+          <option value="">-- 請先選縣市 --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="sec" id="m-sec-veh">車型與人數 Vehicle &amp; Passengers</div>
+    <div class="row2">
+      <div class="f">
+        <label><span id="m-lbl-veh">車型</span> <span class="en">Vehicle</span></label>
+        <select id="m-sel-veh" onchange="updatePax(&#39;m-&#39;)">
+          <option value="">-- 請選擇車型 --</option>
+          <option value="sedan">轎車｜4人座</option>
+          <option value="van9">九人座｜8人</option>
+          <option value="benz">Benz九座｜8人</option>
+        </select>
+      </div>
+      <div class="f">
+        <label><span id="m-lbl-pax">人數</span> <span class="en">Pax</span></label>
+        <select id="m-sel-pax" disabled="">
+          <option value="">-- 先選車型 --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="sec" id="m-sec-time">接送時間 Transfer Time</div>
+    <div class="f">
+      <select id="m-sel-time" onchange="chkNight(&#39;m-&#39;)">
+        <option value="">-- 請選擇時間 --</option><option value="0">00:00</option><option value="0">00:30</option><option value="1">01:00</option><option value="1">01:30</option><option value="2">02:00</option><option value="2">02:30</option><option value="3">03:00</option><option value="3">03:30</option><option value="4">04:00</option><option value="4">04:30</option><option value="5">05:00</option><option value="5">05:30</option><option value="6">06:00</option><option value="6">06:30</option><option value="7">07:00</option><option value="7">07:30</option><option value="8">08:00</option><option value="8">08:30</option><option value="9">09:00</option><option value="9">09:30</option><option value="10">10:00</option><option value="10">10:30</option><option value="11">11:00</option><option value="11">11:30</option><option value="12">12:00</option><option value="12">12:30</option><option value="13">13:00</option><option value="13">13:30</option><option value="14">14:00</option><option value="14">14:30</option><option value="15">15:00</option><option value="15">15:30</option><option value="16">16:00</option><option value="16">16:30</option><option value="17">17:00</option><option value="17">17:30</option><option value="18">18:00</option><option value="18">18:30</option><option value="19">19:00</option><option value="19">19:30</option><option value="20">20:00</option><option value="20">20:30</option><option value="21">21:00</option><option value="21">21:30</option><option value="22">22:00</option><option value="22">22:30</option><option value="23">23:00</option><option value="23">23:30</option>
+      </select>
+      <div class="chip" id="m-night-chip">
+        <span class="chip-ico">🌙</span>
+        <span id="m-lbl-night">深夜時段（23:00 ~ 隔日 06:00），加收 NT$200</span>
+      </div>
+    </div>
+
+    <div class="sec" id="m-sec-child">兒童設備（選填）</div>
+    <div class="row2">
+      <div class="f">
+        <label><span id="m-lbl-seat">安全座椅</span> <span style="color:var(--amber);font-size:9px">+NT$200/座</span></label>
+        <select id="m-sel-seat" onchange="chkChild(&#39;m-&#39;)"><option value="0">0 座</option></select>
+      </div>
+      <div class="f">
+        <label><span id="m-lbl-boost">增高墊</span> <span style="color:var(--amber);font-size:9px">+NT$200/座</span></label>
+        <select id="m-sel-boost" onchange="chkChild(&#39;m-&#39;)"><option value="0">0 座</option></select>
+      </div>
+    </div>
+    <div class="chip err" id="m-child-err">
+      <span class="chip-ico">⚠️</span>
+      <span id="m-lbl-child-err">安全座椅與增高墊合計不得超過車型座位數上限</span>
+    </div>
+
+    <button class="calc-btn" onclick="calc(&#39;m-&#39;)">
+      <span id="m-lbl-calc">計算車資</span>
+    </button></div>
+  </div>
+
+  <!-- Result card (always visible, scrolled to after calc) -->
+  <div class="mobile-result-card" id="mobile-result-card">
+    <div class="res-head">
+      <div class="res-head-title" id="res-title-m">車資試算結果</div>
+      <div class="res-route" id="res-route-m"><span style="font-size:11px;opacity:.7">填寫上方資訊後按下計算</span></div>
+    </div>
+    <div class="mobile-result-body">
+      <div class="mobile-empty" id="empty-m">
+        <span style="font-size:32px;display:block;margin-bottom:8px;opacity:.4">🗺️</span>
+        <span id="lbl-empty-m">請填寫上方資訊後按下「計算車資」</span>
+      </div>
+      <div class="fare-display" id="fare-m">
+        <div class="fare-hero">
+          <div class="fare-veh" id="res-veh-m"></div>
+          <div class="fare-big"><span class="cur">NT$</span><span id="res-total-m">0</span></div>
+          <div class="fare-note" id="res-note-m"></div>
+        </div>
+        <div class="bd"><div class="bd-ttl" id="lbl-bd-m">費用明細 BREAKDOWN</div><div id="bd-rows-m"></div></div>
+        <div id="ov-wrap-m"></div>
+        <div class="act-row">
+          <button class="act-btn act-print" onclick="window.print()">🖨️ 列印報價</button>
+          <button class="act-btn act-line">💚 分享 LINE<small>功能開發中</small></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /mobile-wrap -->
+
+<script>
+// ══════════════════════════════════════
+// DATA
+// ══════════════════════════════════════
+const FARES=[
+  ["基隆/新北","基隆(和平島、海科館)、新北(瑞芳、三芝、萬里、石門)",1400,1800,2000],
+  ["基隆/新北","基隆(信義、中正)",1300,1700,1900],
+  ["基隆/新北","基隆(中山、安樂、仁愛、八堵、七堵、五堵、暖暖)",1200,1600,1800],
+  ["台北/新北","金山、九份、金瓜石、平溪、坪林、雙溪、石碇、貢寮",1500,1900,2100],
+  ["台北/新北","汐止、深坑",1100,1500,1700],
+  ["台北/新北","陽明山區、新店山區",1200,1600,1800],
+  ["台北/新北","淡水、南港(研究院路一段)、文山(指南路二段)",1100,1500,1700],
+  ["台北/新北","台北市區(中山/中正/大同/大安/信義/松山/文山/南港/內湖/大直/士林/天母/關渡/北投/萬華/景美)、木柵/三重/新莊/八里/三峽/鶯歌/迴龍/樹林/五股/蘆洲/中和/永和/板橋/泰山/土城/新店",1000,1400,1600],
+  ["桃園","桃園、蘆竹(南崁)、青埔",700,1000,1200],
+  ["桃園","平鎮、觀音、林口、龜山、中壢、八德、大園",800,1100,1300],
+  ["桃園","新屋、楊梅、大溪",900,1200,1400],
+  ["桃園","龍潭",1000,1300,1500],
+  ["桃園","復興區",1300,1700,2000],
+  ["新竹","新竹市、湖口、新豐、竹北",1200,1600,1800],
+  ["新竹","香山、寶山、竹東、關西",1200,1600,1800],
+  ["新竹","新埔、芎林、橫山、北埔、峨眉",1300,1700,2000],
+  ["新竹","五峰、尖石",1500,1900,2200],
+  ["苗栗","竹南、頭份",1600,2000,2100],
+  ["苗栗","苗栗、頭屋、公館、造橋、後龍、西湖",1800,2200,2300],
+  ["苗栗","銅鑼、通霄",2000,2400,2500],
+  ["苗栗","三義、苑裡",2100,2600,2700],
+  ["苗栗","獅潭、卓蘭、大湖",2200,2600,2900],
+  ["苗栗","南庄、泰安",2400,2800,3100],
+  ["台中","大甲、后里、外埔",2500,3000,3200],
+  ["台中","豐原、神岡",2600,3100,3300],
+  ["台中","大雅、潭子、石岡",2700,3200,3400],
+  ["台中","台中市區(中/東/西/南/北/北屯/西屯/南屯)、沙鹿/清水/梧棲/龍井/烏日/東勢",2800,3200,3400],
+  ["台中","大肚、大里、太平、新社、霧峰",2900,3300,3500],
+  ["台中","大安",2100,2500,2800],
+  ["台中","和平",2700,3100,3500],
+  ["宜蘭","礁溪、頭城",1900,2400,2600],
+  ["宜蘭","宜蘭市、壯圍",2000,2600,2800],
+  ["宜蘭","羅東、五結",2200,2800,3000],
+  ["宜蘭","三星、冬山",2300,2900,3100],
+  ["宜蘭","蘇澳、東澳",2500,3100,3300],
+  ["宜蘭","南澳、大同",2800,3300,3700],
+  ["彰化","彰化市、伸港、和美、線西",2500,2900,3200],
+  ["彰化","鹿港、福興、秀水、花壇、芬園",2700,3100,3400],
+  ["彰化","員林、溪湖、大村、埔心、埔鹽、永靖",2800,3200,3500],
+  ["彰化","社頭、田尾、北斗、埤頭、溪州、芳苑",2900,3300,3600],
+  ["彰化","田中、竹塘、二林、大城、二水",3100,3500,3800],
+  ["南投","草屯、南投市",2800,3200,3500],
+  ["南投","中寮、國姓、名間",3100,3500,3800],
+  ["南投","鹿谷、水里、信義、集集、竹山",3300,3700,4000],
+  ["南投","埔里",3500,3900,4300],
+  ["南投","魚池(含日月潭)",3600,4000,4400],
+  ["南投","仁愛(含清境、廬山)",3800,4200,4600],
+  ["雲林","西螺、莿桐、二崙、大埤",3100,3500,3800],
+  ["雲林","土庫、臺西、斗南、崙背、麥寮、古坑",3200,3600,3900],
+  ["雲林","斗六、林內、元長、褒忠、東勢",3300,3700,4000],
+  ["雲林","北港、水林、口湖、四湖",3500,3900,4200],
+  ["嘉義","大林、溪口、民雄、新港",3300,3700,4000],
+  ["嘉義","六腳、太保、水上、鹿草、梅山、竹崎",3600,4000,4300],
+  ["嘉義","嘉義市、番路、中埔、朴子、東石、義竹、布袋",3900,4300,4700],
+  ["嘉義","阿里山",4700,5200,5700],
+  ["嘉義","大埔",4900,5400,5900],
+  ["台南","後壁、白河、東山、新營、柳營、鹽水、下營",3700,4100,4500],
+  ["台南","六甲、官田、麻豆、學甲、佳里、將軍、北門、西港、七股、善化、大內",4000,4400,4800],
+  ["台南","台南市區(中西/東/南/北/安平/安南)、永康/新市/安定/新化/仁德/歸仁/山上",4300,4700,5100],
+  ["台南","左鎮、玉井、楠西、南化、關廟、龍崎",4500,4900,5300],
+  ["高雄","湖內、路竹、阿蓮、永安、彌陀、梓官、茄萣",4500,4900,5300],
+  ["高雄","岡山、橋頭、燕巢、田寮、內門",4700,5100,5500],
+  ["高雄","楠梓、左營、仁武、大社、鳥松",4900,5300,5700],
+  ["高雄","三民/新興/前金/鹽埕/鼓山/苓雅/旗津/前鎮/小港/鳳山/大寮/大樹/林園",5000,5400,5800],
+  ["高雄","旗山、杉林、甲仙、美濃",5100,5500,5900],
+  ["高雄","六龜、茂林",5300,5700,6100],
+  ["高雄","那瑪夏、桃源",5600,6000,6500],
+  ["屏東","九如、里港、鹽埔、長治、麟洛",5000,5400,5800],
+  ["屏東","屏東市、三地門、新園、瑪家、高樹",5200,5600,6000],
+  ["屏東","竹田、內埔、萬丹、潮州、泰武、萬巒、崁頂",5300,5700,6100],
+  ["屏東","來義、新埤、南州、林邊、佳冬、東港、枋寮、霧台",5500,5900,6400],
+  ["屏東","春日、枋山、獅子",5900,6300,6800],
+  ["屏東","車城、恆春、牡丹、滿州",6300,6700,7200],
+  ["花蓮","新城(含太魯閣)、秀林",3700,4700,5200],
+  ["花蓮","花蓮市、吉安",3900,4900,5400],
+  ["花蓮","壽豐、萬榮、鳳林",4200,5400,5900],
+  ["花蓮","光復、豐濱、瑞穗",4800,6000,6600],
+  ["花蓮","卓溪、玉里",5300,6500,7200],
+  ["花蓮","富里",5700,7000,7700],
+  ["台東","長濱",5900,7000,7700],
+  ["台東","成功、東河",6500,7700,8500],
+  ["台東","池上、海端、關山、鹿野、延平",6700,7900,8700],
+  ["台東","達仁、大武、金峰、太麻里",8700,9800,10800],
+  ["台東","卑南、台東市",9300,10300,11300],
+];
+
+const SL={sedan:4,van9:8,benz:8};
+const VN_ZH={sedan:'轎車',van9:'九人座',benz:'Benz 九座'};
+const VN_EN={sedan:'Sedan',van9:'9-Seater',benz:'Benz 9-Seater'};
+let lang='zh', svc='go', last=null;
+
+// ══════════════════════════════════════
+// i18n
+// ══════════════════════════════════════
+const T={
+  zh:{langBtn:'EN','hd-co':'賓律租賃股份有限公司','hd-sub':'桃園國際機場接送車資試算',
+    'fp-title':'填寫接送資訊',
+    'sec-svc':'服務類型 Service Type','sec-dest':'目的地 Destination',
+    'sec-veh':'車型與人數 Vehicle & Passengers','sec-time':'接送時間 Transfer Time',
+    'sec-child':'兒童設備（選填）',
+    'lbl-go':'送機','lbl-pk':'接機',
+    'lbl-county':'縣市','lbl-dist':'行政區',
+    'lbl-veh':'車型','lbl-pax':'人數',
+    'lbl-night':'深夜時段（23:00 ~ 隔日 06:00），加收 NT$200',
+    'lbl-seat':'安全座椅','lbl-boost':'增高墊',
+    'lbl-child-err':'安全座椅與增高墊合計不得超過車型座位數上限',
+    'lbl-calc':'計算車資','res-title':'車資試算結果',
+    'lbl-empty':'請選擇目的地、車型與時間\n即可試算接送車資',
+    'lbl-empty-m':'請填寫上方資訊後按下「計算車資」',
+    'lbl-bd':'費用明細 BREAKDOWN','lbl-ov':'其他車型參考 OTHER VEHICLES',
+    'lbl-print':'列印報價','lbl-line':'分享 LINE','lbl-coming':'功能開發中',
+    'ph-county':'-- 請選縣市 --','ph-dist':'-- 請先選縣市 --','ph-dist2':'-- 請選行政區 --',
+    'ph-veh':'-- 請選擇車型 --','ph-pax':'-- 先選車型 --','ph-time':'-- 請選擇時間 --',
+    'opt-sedan':'轎車｜4人座','opt-van9':'九人座｜8人','opt-benz':'Benz九座｜8人',
+    'r-base':'基本車資','r-pickup':'接機加收','r-night':'深夜加收',
+    'r-seat':'安全座椅','r-boost':'增高墊','r-total':'總車資',
+    'u-pax':'人','u-seat':'座','base-pre':'基本車資 NT$',
+    'origin':'起點','dest':'送達地點','night-lbl':'夜間加乘','airport':'桃園國際機場',
+    'night-yes':'✅','night-no':'❌ 一般時段',
+    'alert-fill':'請填寫所有必填欄位！','alert-child':'兒童設備合計超過座位數上限！'},
+  en:{langBtn:'中文','hd-co':'Binglu Rental Co., Ltd.','hd-sub':'Taoyuan Int\'l Airport Transfer Calculator',
+    'fp-title':'Transfer Details',
+    'sec-svc':'Service Type','sec-dest':'Destination',
+    'sec-veh':'Vehicle & Passengers','sec-time':'Transfer Time',
+    'sec-child':'Child Equipment (Optional)',
+    'lbl-go':'Drop-off','lbl-pk':'Pick-up',
+    'lbl-county':'County','lbl-dist':'District',
+    'lbl-veh':'Vehicle','lbl-pax':'Pax',
+    'lbl-night':'Night hours (23:00~06:00): +NT$200 surcharge',
+    'lbl-seat':'Child Safety Seat','lbl-boost':'Booster Seat',
+    'lbl-child-err':'Child seats total cannot exceed vehicle seat limit',
+    'lbl-calc':'Calculate Fare','res-title':'Fare Estimate',
+    'lbl-empty':'Select destination, vehicle & time\nto get your fare',
+    'lbl-empty-m':'Fill in the form above and press Calculate',
+    'lbl-bd':'FARE BREAKDOWN','lbl-ov':'OTHER VEHICLE OPTIONS',
+    'lbl-print':'Print','lbl-line':'Share LINE','lbl-coming':'Coming Soon',
+    'ph-county':'-- Select County --','ph-dist':'-- Select County First --','ph-dist2':'-- Select District --',
+    'ph-veh':'-- Select Vehicle --','ph-pax':'-- Select Vehicle First --','ph-time':'-- Select Time --',
+    'opt-sedan':'Sedan｜4 seats','opt-van9':'9-Seater｜8 seats','opt-benz':'Benz 9-Seater｜8 seats',
+    'r-base':'Base Fare','r-pickup':'Pick-up Surcharge','r-night':'Night Surcharge',
+    'r-seat':'Child Safety Seat','r-boost':'Booster Seat','r-total':'Total Fare',
+    'u-pax':' pax','u-seat':' seat(s)','base-pre':'Base Fare NT$',
+    'origin':'Origin','dest':'Destination','night-lbl':'Night','airport':'Taoyuan Int\'l Airport',
+    'night-yes':'✅','night-no':'❌ Regular',
+    'alert-fill':'Please fill in all required fields!','alert-child':'Child seats exceed vehicle seat limit!'}
+};
+const t=k=>(T[lang]||T.zh)[k]||k;
+
+// ══════════════════════════════════════
+// BUILD FORM HTML (shared for desktop + mobile)
+// ══════════════════════════════════════
+function formHTML(pfx){
+  const counties=[...new Set(FARES.map(r=>r[0]))];
+  const countyOpts=counties.map(c=>`<option value="${c}">${c}</option>`).join('');
+  const timeOpts=Array.from({length:48},(_,i)=>{
+    const h=Math.floor(i/2),m=i%2===0?'00':'30';
+    const hh=String(h).padStart(2,'0');
+    return `<option value="${h}">${hh}:${m}</option>`;
+  }).join('');
+
+  return `
+    <div class="sec" id="${pfx}sec-svc">${t('sec-svc')}</div>
+    <div class="svc-row">
+      <button class="svc-btn go" id="${pfx}btn-go" onclick="selSvc('go','${pfx}')">
+        <span class="ico">✈️</span><span id="${pfx}lbl-go">${t('lbl-go')}</span>
+        <span class="en">Drop-off</span>
+      </button>
+      <button class="svc-btn" id="${pfx}btn-pk" onclick="selSvc('pk','${pfx}')">
+        <span class="ico">🛬</span><span id="${pfx}lbl-pk">${t('lbl-pk')}</span>
+        <span class="en">Pick-up +NT$100</span>
+      </button>
+    </div>
+
+    <div class="sec" id="${pfx}sec-dest">${t('sec-dest')}</div>
+    <div class="row2">
+      <div class="f">
+        <label><span id="${pfx}lbl-county">${t('lbl-county')}</span> <span class="en">County</span></label>
+        <select id="${pfx}sel-county" onchange="updateDist('${pfx}')">
+          <option value="">${t('ph-county')}</option>${countyOpts}
+        </select>
+      </div>
+      <div class="f">
+        <label><span id="${pfx}lbl-dist">${t('lbl-dist')}</span> <span class="en">District</span></label>
+        <select id="${pfx}sel-dist" disabled>
+          <option value="">${t('ph-dist')}</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="sec" id="${pfx}sec-veh">${t('sec-veh')}</div>
+    <div class="row2">
+      <div class="f">
+        <label><span id="${pfx}lbl-veh">${t('lbl-veh')}</span> <span class="en">Vehicle</span></label>
+        <select id="${pfx}sel-veh" onchange="updatePax('${pfx}')">
+          <option value="">${t('ph-veh')}</option>
+          <option value="sedan">${t('opt-sedan')}</option>
+          <option value="van9">${t('opt-van9')}</option>
+          <option value="benz">${t('opt-benz')}</option>
+        </select>
+      </div>
+      <div class="f">
+        <label><span id="${pfx}lbl-pax">${t('lbl-pax')}</span> <span class="en">Pax</span></label>
+        <select id="${pfx}sel-pax" disabled>
+          <option value="">${t('ph-pax')}</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="sec" id="${pfx}sec-time">${t('sec-time')}</div>
+    <div class="f">
+      <select id="${pfx}sel-time" onchange="chkNight('${pfx}')">
+        <option value="">${t('ph-time')}</option>${timeOpts}
+      </select>
+      <div class="chip" id="${pfx}night-chip">
+        <span class="chip-ico">🌙</span>
+        <span id="${pfx}lbl-night">${t('lbl-night')}</span>
+      </div>
+    </div>
+
+    <div class="sec" id="${pfx}sec-child">${t('sec-child')}</div>
+    <div class="row2">
+      <div class="f">
+        <label><span id="${pfx}lbl-seat">${t('lbl-seat')}</span> <span style="color:var(--amber);font-size:9px">+NT$200/座</span></label>
+        <select id="${pfx}sel-seat" onchange="chkChild('${pfx}')"><option value="0">0 座</option></select>
+      </div>
+      <div class="f">
+        <label><span id="${pfx}lbl-boost">${t('lbl-boost')}</span> <span style="color:var(--amber);font-size:9px">+NT$200/座</span></label>
+        <select id="${pfx}sel-boost" onchange="chkChild('${pfx}')"><option value="0">0 座</option></select>
+      </div>
+    </div>
+    <div class="chip err" id="${pfx}child-err">
+      <span class="chip-ico">⚠️</span>
+      <span id="${pfx}lbl-child-err">${t('lbl-child-err')}</span>
+    </div>
+
+    <button class="calc-btn" onclick="calc('${pfx}')">
+      <span id="${pfx}lbl-calc">${t('lbl-calc')}</span>
+    </button>`;
+}
+
+// ══════════════════════════════════════
+// INIT
+// ══════════════════════════════════════
+function init(){
+  document.getElementById('desktop-form-body').innerHTML = formHTML('d-');
+  document.getElementById('mobile-form-body').innerHTML  = formHTML('m-');
+  // sync svc state
+  syncSvcButtons('d-');
+  syncSvcButtons('m-');
+}
+
+function syncSvcButtons(pfx){
+  document.getElementById(pfx+'btn-go').className='svc-btn'+(svc==='go'?' go':'');
+  document.getElementById(pfx+'btn-pk').className='svc-btn'+(svc==='pk'?' pk':'');
+}
+
+// ══════════════════════════════════════
+// FORM INTERACTIONS
+// ══════════════════════════════════════
+function selSvc(type, pfx){
+  svc=type;
+  // sync both forms
+  ['d-','m-'].forEach(p=>{
+    if(document.getElementById(p+'btn-go')){
+      document.getElementById(p+'btn-go').className='svc-btn'+(svc==='go'?' go':'');
+      document.getElementById(p+'btn-pk').className='svc-btn'+(svc==='pk'?' pk':'');
+    }
+  });
+}
+
+function updateDist(pfx){
+  const c=document.getElementById(pfx+'sel-county').value;
+  const s=document.getElementById(pfx+'sel-dist');
+  if(!c){s.innerHTML=`<option value="">${t('ph-dist')}</option>`;s.disabled=true;return}
+  s.disabled=false;
+  s.innerHTML=`<option value="">${t('ph-dist2')}</option>`;
+  FARES.forEach((r,i)=>{
+    if(r[0]===c) s.appendChild(Object.assign(document.createElement('option'),{value:i,textContent:r[1]}));
+  });
+}
+
+function updatePax(pfx){
+  const v=document.getElementById(pfx+'sel-veh').value;
+  const s=document.getElementById(pfx+'sel-pax');
+  if(!v){s.disabled=true;s.innerHTML=`<option value="">${t('ph-pax')}</option>`;return}
+  s.disabled=false;s.innerHTML='';
+  for(let i=1;i<=SL[v];i++)
+    s.appendChild(Object.assign(document.createElement('option'),{value:i,textContent:`${i}${t('u-pax')}`}));
+  updChildLim(pfx);
+}
+
+function updChildLim(pfx){
+  const v=document.getElementById(pfx+'sel-veh').value, max=v?SL[v]:4;
+  ['sel-seat','sel-boost'].forEach(id=>{
+    const s=document.getElementById(pfx+id), p=parseInt(s.value)||0;
+    s.innerHTML='';
+    for(let i=0;i<=max;i++)
+      s.appendChild(Object.assign(document.createElement('option'),{value:i,textContent:`${i}${t('u-seat')}`}));
+    s.value=Math.min(p,max);
+  });
+  chkChild(pfx);
+}
+
+function chkNight(pfx){
+  const h=parseInt(document.getElementById(pfx+'sel-time').value);
+  document.getElementById(pfx+'night-chip').classList.toggle('show',!isNaN(h)&&(h>=23||h<6));
+}
+
+function chkChild(pfx){
+  const v=document.getElementById(pfx+'sel-veh').value, max=v?SL[v]:4;
+  const s=parseInt(document.getElementById(pfx+'sel-seat').value)||0;
+  const b=parseInt(document.getElementById(pfx+'sel-boost').value)||0;
+  document.getElementById(pfx+'child-err').classList.toggle('show',s+b>max);
+}
+
+// ══════════════════════════════════════
+// CALCULATE
+// ══════════════════════════════════════
+function calc(pfx){
+  const ci  = document.getElementById(pfx+'sel-county').value;
+  const di  = document.getElementById(pfx+'sel-dist').value;
+  const v   = document.getElementById(pfx+'sel-veh').value;
+  const p   = document.getElementById(pfx+'sel-pax').value;
+  const th  = document.getElementById(pfx+'sel-time').value;
+  const se  = parseInt(document.getElementById(pfx+'sel-seat').value)||0;
+  const bo  = parseInt(document.getElementById(pfx+'sel-boost').value)||0;
+
+  if(!ci||di===''||!v||!p||th===''){alert(t('alert-fill'));return}
+  const max=SL[v];
+  if(se+bo>max){alert(t('alert-child'));return}
+
+  const row  = FARES[parseInt(di)];
+  const base = row[{sedan:2,van9:3,benz:4}[v]];
+  const pkS  = svc==='pk'?100:0;
+  const h    = parseInt(th);
+  const ntS  = (!isNaN(h)&&(h>=23||h<6))?200:0;
+  const seS  = se*200, boS=bo*200;
+  const total= base+pkS+ntS+seS+boS;
+  const allF = {sedan:row[2]+pkS+ntS+seS+boS, van9:row[3]+pkS+ntS+seS+boS, benz:row[4]+pkS+ntS+seS+boS};
+
+  // get displayed time text
+  const tSel = document.getElementById(pfx+'sel-time');
+  const timeText = tSel.options[tSel.selectedIndex]?tSel.options[tSel.selectedIndex].text:'';
+
+  last={county:ci,area:row[1],v,base,pkS,ntS,seS,boS,se,bo,total,allF,th,timeText,pax:parseInt(p)};
+
+  const isMob = window.matchMedia('(max-width:820px)').matches;
+  if(isMob){
+    renderTo('m-', last);
+    // smooth scroll to result card
+    setTimeout(()=>{
+      document.getElementById('mobile-result-card').scrollIntoView({behavior:'smooth',block:'start'});
+    }, 80);
+  } else {
+    renderTo('d-', last);
+  }
+}
+
+// ══════════════════════════════════════
+// RENDER
+// ══════════════════════════════════════
+function buildRoute(r){
+  const isN  = parseInt(r.th)>=23||parseInt(r.th)<6;
+  const originVal  = svc==='pk' ? t('airport') : `${r.county} ${r.area}`;
+  const destVal    = svc==='pk' ? `${r.county} ${r.area}` : t('airport');
+  const nightVal   = isN ? `${t('night-yes')} ${r.timeText}` : t('night-no');
+  return `
+    <div class="rinfo"><span class="rinfo-label">${t('origin')}</span><span class="rinfo-val">${originVal}</span></div>
+    <span class="rarrow">→</span>
+    <div class="rinfo"><span class="rinfo-label">${t('dest')}</span><span class="rinfo-val">${destVal}</span></div>
+    <div class="rinfo"><span class="rinfo-label">${t('night-lbl')}</span><span class="rinfo-val">${nightVal}</span></div>`;
+}
+
+function buildFareBody(r){
+  const vn   = lang==='zh'?VN_ZH[r.v]:VN_EN[r.v];
+  const rows = [
+    [t('r-base'), r.base, false],
+    ...(r.pkS ? [[t('r-pickup'), r.pkS, true]] : []),
+    ...(r.ntS ? [[t('r-night'),  r.ntS, true]] : []),
+    ...(r.seS ? [[`${t('r-seat')} ×${r.se}`, r.seS, true]] : []),
+    ...(r.boS ? [[`${t('r-boost')} ×${r.bo}`, r.boS, true]] : []),
+    [t('r-total'), r.total, false],
+  ];
+  const bdHTML = rows.map(([l,a,s],i)=>`
+    <div class="bd-row">
+      <span>${l}</span>
+      <span class="${i===rows.length-1?'bd-tot':(s?'bd-sur':'')}">${s?'+':''}NT$${a.toLocaleString()}</span>
+    </div>`).join('');
+
+  const ovHTML = Object.entries(r.allF)
+    .filter(([k])=>k!==r.v && r.pax<=SL[k])
+    .map(([k,f])=>`
+      <div class="ov-card">
+        <div class="ov-name">${lang==='zh'?VN_ZH[k]:VN_EN[k]}</div>
+        <div class="ov-fare"><span class="ov-cur">NT$</span>${f.toLocaleString()}</div>
+      </div>`).join('');
+  const ovSection = ovHTML
+    ? `<div class="ov-ttl">${t('lbl-ov')}</div><div class="ov-grid">${ovHTML}</div>`
+    : '';
+
+  return {vn, bdHTML, ovSection};
+}
+
+function renderTo(pfx, r){
+  const {vn, bdHTML, ovSection} = buildFareBody(r);
+  const routeHTML = buildRoute(r);
+
+  if(pfx==='d-'){
+    document.getElementById('res-route-d').innerHTML = routeHTML;
+    document.getElementById('res-veh-d').textContent  = vn;
+    document.getElementById('res-total-d').textContent= r.total.toLocaleString();
+    document.getElementById('res-note-d').textContent = t('base-pre')+r.base.toLocaleString();
+    document.getElementById('bd-rows-d').innerHTML    = bdHTML;
+    document.getElementById('ov-wrap-d').innerHTML    = ovSection;
+    document.getElementById('empty-d').style.display  = 'none';
+    document.getElementById('fare-d').style.display   = 'flex';
+  } else {
+    document.getElementById('res-route-m').innerHTML  = routeHTML;
+    document.getElementById('res-veh-m').textContent  = vn;
+    document.getElementById('res-total-m').textContent= r.total.toLocaleString();
+    document.getElementById('res-note-m').textContent = t('base-pre')+r.base.toLocaleString();
+    document.getElementById('bd-rows-m').innerHTML    = bdHTML;
+    document.getElementById('ov-wrap-m').innerHTML    = ovSection;
+    document.getElementById('empty-m').style.display  = 'none';
+    document.getElementById('fare-m').style.display   = 'flex';
+  }
+}
+
+// ══════════════════════════════════════
+// LANGUAGE
+// ══════════════════════════════════════
+function toggleLang(){
+  lang = lang==='zh'?'en':'zh';
+  document.getElementById('langBtn').textContent = t('langBtn');
+  document.getElementById('hd-co').textContent   = t('hd-co');
+  document.getElementById('hd-sub').textContent  = t('hd-sub');
+  // rebuild both forms
+  document.getElementById('desktop-form-body').innerHTML = formHTML('d-');
+  document.getElementById('mobile-form-body').innerHTML  = formHTML('m-');
+  syncSvcButtons('d-');
+  syncSvcButtons('m-');
+  // re-render result if exists
+  if(last) {
+    const isMob=window.matchMedia('(max-width:820px)').matches;
+    renderTo(isMob?'m-':'d-', last);
+  }
+}
+
+// ══════════════════════════════════════
+// START
+// ══════════════════════════════════════
+init();
+</script>
+
+
+</body></html>
